@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:padding="10dip"
+          android:id="@+id/layout1" 
+          android:background="#00967F"     
+          >
+                 
+          <!--  Email Label -->
+
+           <TextView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dip"
+               android:text="Eliminar"
+               android:textColor="#fff"
+               android:textSize="45sp" />
+
+            <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dip"
+              android:text="ID:"
+              android:textColor="#fff"
+              android:textSize="24sp" />
+                
+          <EditText android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:id="@+id/id"
+                android:background="#90ffffff"
+                android:textColor="#00967F" 
+                 android:textSize="20sp"               
+           />
+                
+
+          
+          <!-- Login button -->
+
+          <Button
+              android:id="@+id/eliminar"
+              android:layout_width="fill_parent"
+              android:layout_height="60dip"
+            android:background="@drawable/edittext_rounded_corners"
+              android:text="Eliminar"
+              android:textColor="#fff"
+              android:textSize="34sp" />
+                
+          <!-- Link to forgot passw -->
+         
+          <!-- Link to Registration Screen -->
+ 
+</LinearLayout>
+

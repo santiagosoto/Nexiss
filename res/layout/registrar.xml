@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:padding="10dip"
+          android:id="@+id/layout1" 
+          android:background="#00967F"     
+          >
+                 
+          <!--  Email Label -->
+
+           <TextView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dip"
+               android:text="Registrar"
+               android:textColor="#fff"
+               android:textSize="45sp" />
+
+            <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dip"
+              android:text="Nombre:"
+              android:textColor="#fff"
+              android:textSize="24sp" />
+                
+          <EditText android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:id="@+id/nombre"
+                android:background="#90ffffff"
+                android:textColor="#00967F" 
+                android:textSize="20sp"
+                android:padding="4dip"                
+           />
+                
+
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Correo:"
+              android:textColor="#fff"
+              android:textSize="24sp" />
+                
+          <EditText android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:inputType="textEmailAddress" 
+                android:id="@+id/username"
+                android:background="#90ffffff"
+                android:textColor="#00967F" 
+                android:textSize="20sp"
+                android:padding="4dip"                
+           />
+                
+          <!--  Password Label -->
+          
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="Contraseña:"
+              android:textColor="#fff"
+              android:textSize="24sp" />
+                
+          <EditText android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:password="true"
+                android:id="@+id/password"
+                android:background="#90ffffff"  
+                android:textColor="#00967F"
+                android:textSize="20sp" 
+                android:padding="4dip" 
+                />
+                
+          <!-- Login button -->
+
+          <Button
+              android:id="@+id/register"
+              android:layout_width="fill_parent"
+              android:layout_height="60dip"
+              android:layout_marginTop="20dip"
+              android:background="@drawable/edittext_rounded_corners"
+              android:text="Registrar"
+              android:textColor="#fff"
+              android:textSize="34sp" />
+                
+          <!-- Link to forgot passw -->
+         
+          <!-- Link to Registration Screen -->
+ 
+</LinearLayout>
+

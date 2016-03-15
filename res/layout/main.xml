@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:padding="15dip"
+          android:id="@+id/layout1" 
+          android:background="#26ae90"     
+          >
+                 
+          <!--  Email Label -->
+
+           <TextView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="50dip"
+               android:text="Iniciar Sesión"
+               android:textColor="#fff"
+               android:textSize="45sp"
+               android:id="@+id/titulo" />
+
+
+                
+          <EditText android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="50dip"
+                android:singleLine="true"
+                android:id="@+id/edusuario"
+                android:background="#ffffff"
+                android:textColor="#000" 
+                android:textSize="20sp"
+                android:padding="4dip" 
+                android:inputType="textEmailAddress"
+                android:hint = "Correo"
+                android:textColorHint="#999999" />                  
+           />
+                
+          <!--  Password Label -->
+          
+
+                
+          <EditText android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="15dip"
+                android:singleLine="true"
+                android:password="true"
+                android:id="@+id/edpassword"
+                android:background="#ffffff"  
+                android:textColor="#000" 
+                android:textSize="20sp"
+                android:padding="4dip"
+                android:hint = "Contraseña" 
+                />
+                
+          <!-- Login button -->
+
+          <Button
+              android:id="@+id/Blogin"
+              android:layout_width="fill_parent"
+              android:layout_height="70dip"
+              android:layout_marginTop="30dip"
+              android:background="#eceef1"
+              android:text="Iniciar Sesión"
+              android:textColor="#26ae90"
+              android:textSize="34sp" />
+                
+          <!-- Link to forgot passw -->
+         
+          <!-- Link to Registration Screen -->
+ 
+</LinearLayout>
+

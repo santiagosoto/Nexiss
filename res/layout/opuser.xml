@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#00967F" 
+  android:orientation="vertical"
+   android:padding="10dip"
+  >
+  
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:gravity="center"
+        android:text="Opciones de Usuario"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+    
+     <Button
+         android:id="@+id/bopur"
+         android:layout_width="fill_parent"
+         android:layout_height="70dip"
+         android:layout_marginTop="40dip"
+         android:background="@drawable/edittext_rounded_corners"
+         android:gravity="center"
+         android:onClick="lanzarour"
+         android:text="Registrar"
+         android:textColor="#fff"
+         android:textSize="34sp" />
+     
+        <Button
+         android:id="@+id/bopuel"
+         android:layout_width="fill_parent"
+         android:layout_height="70dip"
+         android:layout_marginTop="40dip"
+         android:background="@drawable/edittext_rounded_corners"
+         android:gravity="center"
+         android:onClick= "lanzarouel"
+         android:text="Eliminar"
+         android:textColor="#fff"
+         android:textSize="34sp" />
+
+  
+</LinearLayout>
+    
+    

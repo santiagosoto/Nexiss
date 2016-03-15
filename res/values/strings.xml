@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nexiss</string>
+    <string name="descripcion">Usted podrá elegir su sitio favorito y comenzar a planificar sus clases. Además podrá consultar disponibilidad de los sitios de forma rápida y sencilla, encontrando la opción que más se ajuste a sus necesidades. Reserve ahora su sitio con NEXISS, ahora tambien disponible para movil.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_reservar">Reservar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_listar">Listar</string>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#00967F" 
+  android:orientation="vertical"
+   android:padding="10dip"
+  >
+  
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:gravity="center"
+        android:text="Bienvenido!"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+    
+    <TextView
+        android:id="@+id/usr_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+     <Button
+         android:id="@+id/bopu"
+         android:layout_width="fill_parent"
+         android:layout_height="70dip"
+         android:layout_marginTop="30dip"
+         android:background="@drawable/edittext_rounded_corners"
+         android:gravity="center"
+         android:onClick="lanzarou"
+         android:text="Opciones de usuario"
+         android:textColor="#fff"
+         android:textSize="30sp" />
+     
+          <Button
+         android:id="@+id/bres"
+         android:layout_width="fill_parent"
+         android:layout_height="70dip"
+         android:layout_marginTop="20dip"
+         android:background="@drawable/edittext_rounded_corners"
+         android:gravity="center"
+         android:onClick="lanzares"
+         android:text="Reservar"
+         android:textColor="#fff"
+         android:textSize="30sp" />
+
+     <TextView
+         android:id="@+id/logoff"
+         android:layout_width="fill_parent"
+         android:layout_height="70dip"
+         android:layout_marginTop="20dip"
+         android:background="@drawable/edittext_rounded_corners"
+         android:gravity="center"
+         android:text="Cerrar Sesión"
+         android:textColor="#fff"
+         android:textSize="30sp" />
+  
+</LinearLayout>
